@@ -104,19 +104,23 @@ function getQuestion(){
 
 function checkAnswer(){
   if(this.textContent !== questionDatabase[currentQuestionIndex].correctAnswer){
-    //removes 10 seconds off the timer for an incorrect answer
+    //removes 10 seconds off the timer for an incorrect answer and styles the pop up indicator
     time -= 10;
     questionResult.style.color ='red'
-    questionResult.style.fontSize ='100%'
+    questionResult.style.fontSize ='200%'
+    questionResult.style.marginLeft ='40%'
     questionResult.textContent="Incorrect!"
+    questionResult.style.marginTop = '5%'
     timePenalty.textContent="  -10";
     timePenalty.style.color ='red';
-
+    //adds 5 seconds to the timer for an correct answer and styles the pop up indicator
   } else {
     time += 5;
     questionResult.style.color ='green';
     questionResult.style.fontSize ='200%';
     questionResult.textContent="Correct!";
+    questionResult.style.marginLeft ='40%'
+    questionResult.style.marginTop = '5%'
     timePenalty.textContent="  +5";
     timePenalty.style.color='green';
   }
@@ -171,20 +175,6 @@ function saveScore(){
 }
 
 
-
-
-//   var finalScore = {
-//     player: submitScore.value,
-//     score: time
-//   }
-//   localStorage.setItem("highScore", JSON.stringify(finalScore));
-// }
-
-// function displayScore(){
-//   var lastScore = JSON.parse(localStorage.getItem("highScore"));
-
-
-// }
 
 function clock(){
     //takes a second off
