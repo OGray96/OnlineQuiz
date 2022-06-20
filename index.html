@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Javascript Quiz</title>
+  </head>
+
+
+  <body>
+    <h2 id="timer-text" class="hide"> Time Remaining: <span id="countdown"></span><span id="timePenalty"></span></h2>
+    <p id="timertext"></p>
+    <button id="goToHighscore">View Highscores</button>
+    <div class="wrapper">
+      <div id="startScreen">
+        <h1>Welcome to the Quiz</h1>
+        <p>Test out your knowledge!</p>
+        <button id="startButton">Start Button</button>
+      </div>
+
+      <div id="questions" class="hide">
+        <h2 id="questionText"></h2>
+        <div id="questionChoices"></div>
+      </div>
+
+      <div id="questionResult"></div>
+
+      <div id="endGame" class="hide">
+        <h3 id="endText">GAMEOVER</h3>
+        <p id="current-score"></p>
+        <p>Enter initials: <input type="text" placeholder="ABC" id="initials"/>
+        <br><br>
+        <button id="submitScore">Submit Score</button>
+        <button id="playAgain">Play Again</button>
+        </p>
+      </div>
+
+
+
+    <script src="./assets/js/script.js"></script>
+  </body>

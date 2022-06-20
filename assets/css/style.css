@@ -1,0 +1,41 @@
+#startButton{
+    margin-left: 45.5%;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+.choices{
+    display: block;
+    margin-left: 45.5%;
+    margin-top: 1%;
+}
+
+p{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+
+#timer-text{
+    display: flex;
+}
+
+#goToHighscore{
+    display: flex;
+    margin-left: 85%;
+    margin-top: -4.5%;
+}
+
+#scorePage{
+    margin-left: 45%;
+    margin-top: 10%;
+}
+
+#questionResult{
+    font-size: 100%;
+}
