@@ -43,3 +43,10 @@ h1{
 #endGame{
     margin-top: -20%;
 }
+
+#questions{
+    background-color: lightblue;
+    margin: -50px 150px 0 150px;
+    border-radius: 10%;
+    border: 1px solid blue;
+}

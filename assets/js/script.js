@@ -27,42 +27,64 @@ var currentQuestionIndex = 0;
 
 var questionDatabase = [
   {
-    question: "In which continent are Chile, Argentina and Brazil?",
+    question: "Which type of JavaScript language is ___",
     answers: [
-			'North America',
-			'South America',
-			'Europe',
-      'Australasia'
+			'Object-Oriented',
+			'Object-Based',
+			'Assembly-language',
+      'High-level'
     ],
-		correctAnswer: '2. South America'
+		correctAnswer: '2. Object-Based'
   },
   {
-    question: "Which brand of soup featured in one of Andy Warhol’s most famous pop art pieces?",
+    question: "Which one of the following also known as Conditional Expression:",
     answers: [
-			'Heinz',
-			'Campbell',
-			'Baxters',
-      'Knorr'
+			'Alternative to if-else',
+			'Switch statement',
+			'If-then-else statement',
+      'immediate if'
     ],
-		correctAnswer: '1. Heinz'
+		correctAnswer: '4. immediate if'
   },
   {
-    question: "Please click c",
+    question: "In JavaScript, what is a block of statement?",
     answers: [
-			'a',
-			'b',
-			'c'
+			'Conditional block',
+			'block that combines a number of statements into a single compound statement',
+			'both conditional block and a single statement',
+      'block that contains a single statement'
     ],
-		correctAnswer: 'c'
+		correctAnswer: '2. block that combines a number of statements into a single compound statement'
   },
   {
-    question: "Please click a2",
+    question: "When interpreter encounters an empty statements, what it will do:",
     answers: [
-			'a',
-			'b',
-			'c'
+			'Shows a warning',
+			'Prompts to complete the statement',
+			'Throws an error',
+      'Ignores the statements'
     ],
-		correctAnswer: 'a'
+		correctAnswer: '4. Ignores the statements'
+  },
+  {
+    question: "The function and var are known as:",
+    answers: [
+			'Keywords',
+			'Data types',
+			'Declaration statements',
+      'Prototypes'
+    ],
+		correctAnswer: '3. Declaration statements'
+  },
+  {
+    question: "Which of the following variables takes precedence over the others if the names are the same?",
+    answers: [
+			'Global variable',
+			'The local element',
+			'The two of the above',
+      'None of the above'
+    ],
+		correctAnswer: '2. The local element'
   },
 ]
 
